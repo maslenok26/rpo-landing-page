@@ -1,0 +1,46 @@
+body {
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+header {
+    background-color: brown;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    align-items: auto;
+}
+
+a {
+    transition: 300ms;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 30px;
+    font-style: italic;
+}
+
+a:hover {
+    background-color: black;
+}
+
+main {
+    width: 1000px;
+    background-color: bisque;
+    margin: auto;
+    height: 80vh;
+    border-radius: 5px;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    width: 500px;
+}
